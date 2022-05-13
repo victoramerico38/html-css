@@ -1,0 +1,49 @@
+.text-contato {
+    margin-top: 10px;
+}
+
+.formulario {
+    width: 25%;
+    margin: 0 auto; 
+    margin-top: 15px;
+   
+}
+
+label,input,select,button {
+    margin: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+textarea {
+    margin: 5px;
+    width: 80%;
+}
+
+input, textarea  {
+    border-radius: 5px;
+    border: solid #bbdfff;
+    background-color: white
+}
+
+form button {
+    cursor: pointer;
+}
+
+@media (max-width:820px){
+    .formulario {
+        width: 50%;
+    }
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width:415px) {
+    .formulario {
+        width: 80%;
+    }
+    form {
+        width: 100%;
+    }
+}

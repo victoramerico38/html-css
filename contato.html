@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/geral.css">
+        <title>Contatos</title>
+    </head>
+    <body>
+
+        <header>
+            <h1>Curso front-end</h1>
+            <div class="navegacao">
+                <div class="links"><a href="./home.html">Home</a></div>
+                <div class="links"><a href="./tabela.html">Tabela de Vendas</a></div>
+                <div class="links"><a href="cofee.html">Café</a></div>
+                <div class="links"><a href="./contato.html">Contato</a></div>
+            </div>
+        </header>
+        
+        <section>
+
+            <article>
+
+                <h2 class="text-contato">Contato</h2>
+                <p>Preencha os campos a baixo</p>    
+                <div class="formulario">
+                    <form method="post">
+
+                        <div>
+                        <label for="text" name="nome">Nome</label>
+                        </div>
+                        <div>
+                        <input type="name" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div>
+                        <label for="email" name="email">E-mail</label>
+                        </div>
+                        <div>
+                        <input type="email" name="email" placeholder="Digite seu E-mail"  required>
+                        </div>
+
+                        <div>
+                         <label for="phone" name="phone">Telefone</label>
+                         </div>
+                         <div>
+                         <input type="phone" name="phone" placeholder="Telefone">
+                        </div>
+
+                        <div>
+                        <label>Idade</label>
+                        </div>
+                        <div>
+                         <select  required>
+                             <option>10-17</option>
+                             <option>18-24</option>
+                             <option>25-30</option>
+                             <option>31-40</option>
+                             <option>>40</option>
+                         </select>  
+                        </div>
+                        <div>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+                        <div>
+                            <textarea name="mensagem" rows="10"  required></textarea>
+                        </div>
+                        <div>
+                            <button>Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </article>
+
+        </section>
+
+        <footer>
+            <p>Desenvolvido por Victor</p>
+        </footer>
+
+    </body>
+</html>
